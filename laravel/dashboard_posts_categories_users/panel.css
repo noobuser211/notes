@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+h1 {
+    margin: 25px;
+    padding: 25px;
+}
+
+.sidebar {
+    margin-left: 25px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.first_item, .second_item, .third_item, .fourth_item {
+    height: 50px;
+    width: 250px;
+    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    margin-left: 50px;
+}
+
+.remove_underline {
+    text-decoration: none;
+}
+
+.active {
+    background-color: red;
+}
