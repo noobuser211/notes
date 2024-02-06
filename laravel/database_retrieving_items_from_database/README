@@ -1,0 +1,6 @@
+The SQL table is called 'register'.
+It has four columns:
+- id
+- username
+- email
+- password
